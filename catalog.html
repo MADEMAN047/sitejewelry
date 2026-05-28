@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог — GELD Jewelry Studio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- HEADER (same as index) -->
+    <header class="header">
+        <div class="header__inner container">
+            <a href="index.html" class="header__logo">GELD</a>
+            <nav class="header__nav">
+                <a href="catalog.html" class="nav-link">Кольца</a>
+                <a href="catalog.html" class="nav-link">Серьги</a>
+                <a href="catalog.html" class="nav-link">Подвески</a>
+                <a href="catalog.html" class="nav-link">Колье</a>
+                <a href="catalog.html" class="nav-link">Браслеты</a>
+                <a href="catalog.html" class="nav-link">Коллекции</a>
+            </nav>
+            <div class="header__actions">
+                <a href="catalog.html" class="btn-nav btn-nav--primary">Каталог</a>
+                <a href="#" class="icon-btn" aria-label="Поиск">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                </a>
+                <a href="#" class="icon-btn" aria-label="Избранное">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </a>
+                <a href="#" class="icon-btn" aria-label="Корзина">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </a>
+                <button class="burger" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- BREADCRUMBS -->
+    <section class="catalog-breadcrumb">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="index.html" class="breadcrumb__link">Главная</a>
+                <span class="separator">/</span>
+                <span class="breadcrumb__current">Каталог</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- CATALOG HEADER -->
+    <section class="catalog-hero">
+        <div class="container catalog-hero__inner">
+            <div class="catalog-hero__left">
+                <h1 class="catalog-hero__title">Каталог</h1>
+                <div class="catalog-filter">
+                    <button class="filter-btn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/></svg>
+                        Фильтры
+                    </button>
+                    <div class="filter-panel">
+                        <div class="filter-group">
+                            <h4 class="filter-group__title">Материал</h4>
+                            <label class="filter-label"><input type="checkbox" checked> Золото 585</label>
+                            <label class="filter-label"><input type="checkbox" checked>白金 Золото 750</label>
+                            <label class="filter-label"><input type="checkbox"> Серебро 925</label>
+                            <label class="filter-label"><input type="checkbox"> Платина</label>
+                        </div>
+                        <div class="filter-group">
+                            <h4 class="filter-group__title">Камни</h4>
+                            <label class="filter-label"><input type="checkbox" checked> Бриллианты</label>
+                            <label class="filter-label"><input type="checkbox"> Сапфиры</label>
+                            <label class="filter-label"><input type="checkbox"> Рубины</label>
+                            <label class="filter-label"><input type="checkbox"> Изумруды</label>
+                        </div>
+                        <div class="filter-group">
+                            <h4 class="filter-group__title">Цена</h4>
+                            <div class="filter-range">
+                                <input type="number" placeholder="от" class="filter-range__input">
+                                <span class="filter-range__sep">—</span>
+                                <input type="number" placeholder="до" class="filter-range__input">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FILTERS SIDEBAR -->
+    <div class="catalog-layout">
+        <aside class="catalog-sidebar">
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Категории</h3>
+                <nav class="sidebar-nav">
+                    <a href="catalog.html" class="sidebar-link active">Все</a>
+                    <a href="catalog.html" class="sidebar-link">Кольца</a>
+                    <a href="catalog.html" class="sidebar-link">Серьги</a>
+                    <a href="catalog.html" class="sidebar-link">Подвески</a>
+                    <a href="catalog.html" class="sidebar-link">Колье</a>
+                    <a href="catalog.html" class="sidebar-link">Браслеты</a>
+                </nav>
+            </div>
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Подкатегории</h3>
+                <nav class="sidebar-nav sidebar-nav--condensed">
+                    <a href="catalog.html" class="sidebar-link">Помолвочные</a>
+                    <a href="catalog.html" class="sidebar-link">Обручальные</a>
+                    <a href="catalog.html" class="sidebar-link">С бриллиантами</a>
+                    <a href="catalog.html" class="sidebar-link">Без камней</a>
+                </nav>
+            </div>
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Цена</h3>
+                <div class="filter-range">
+                    <input type="number" placeholder="от" class="filter-range__input">
+                    <span class="filter-range__sep">—</span>
+                    <input type="number" placeholder="до" class="filter-range__input">
+                </div>
+            </div>
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Материал</h3>
+                <label class="filter-label"><input type="checkbox" checked> Золото 585</label>
+                <label class="filter-label"><input type="checkbox"> Золото 750</label>
+                <label class="filter-label"><input type="checkbox"> Белый сплав</label>
+                <label class="filter-label"><input type="checkbox"> Розовое золото</label>
+                <label class="filter-label"><input type="checkbox"> Платина 950</label>
+            </div>
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Камни</h3>
+                <label class="filter-label"><input type="checkbox" checked> Бриллианты</label>
+                <label class="filter-label"><input type="checkbox"> Сапфиры</label>
+                <label class="filter-label"><input type="checkbox"> Рубины</label>
+                <label class="filter-label"><input type="checkbox"> Изумруды</label>
+                <label class="filter-label"><input type="checkbox"> Лаб. бриллианты</label>
+            </div>
+        </aside>
+
+        <main class="catalog-main">
+            <!-- FEATURED PRODUCT (1 большой) -->
+            <div class="catalog-featured">
+                <div class="catalog-featured__inner">
+                    <div class="catalog-featured__image">
+                        <a href="product.html" class="catalog-featured__media"></a>
+                    </div>
+                    <div class="catalog-featured__info">
+                        <span class="new-tag">Новинка</span>
+                        <span class="catalog-featured__name">Кольцо с бриллиантом</span>
+                        <span class="catalog-featured__name-sub">Эта коллекция «Essence»</span>
+                        <span class="catalog-featured__price">от 185 000 ₽</span>
+                        <a href="product.html" class="btn btn--dark">Смотреть</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 SMALL CARDS -->
+            <div class="catalog-grid">
+                <a href="product.html" class="product-card">
+                    <div class="product-card__image">
+                        <div class="product-card__media"></div>
+                        <div class="product-card__hover"></div>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__name">Серьги «Lumière»</span>
+                        <span class="product-card__price">127 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="product-card">
+                    <div class="product-card__image">
+                        <div class="product-card__media"></div>
+                        <div class="product-card__hover"></div>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__name">Подвеска «Éternité»</span>
+                        <span class="product-card__price">94 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="product-card">
+                    <div class="product-card__image">
+                        <div class="product-card__media"></div>
+                        <div class="product-card__hover"></div>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__name">Колье «Rivière»</span>
+                        <span class="product-card__price">320 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="product-card">
+                    <div class="product-card__image">
+                        <div class="product-card__media"></div>
+                        <div class="product-card__hover"></div>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__name">Браслет «Essence»</span>
+                        <span class="product-card__price">156 000 ₽</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- MORE PRODUCTS -->
+            <h2 class="catalog-section-title">Популярные</h2>
+            <div class="catalog-grid catalog-grid--large">
+                <a href="product.html" class="product-card product-card--large">
+                    <div class="product-card__image">
+                        <div class="product-card__media"></div>
+                        <div class="product-card__hover"></div>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__name">Кольцо «Éternité» помолвочное</span>
+                        <span class="product-card__price">245 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="product-card product-card--large">
+                    <div class="product-card__image">
+                        <div class="product-card__media"></div>
+                        <div class="product-card__hover"></div>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__name">Серьги «Lumière» классические</span>
+                        <span class="product-card__price">88 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="product-card product-card--large">
+                    <div class="product-card__image">
+                        <div class="product-card__media"></div>
+                        <div class="product-card__hover"></div>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__name">Кольцо «Essence» обручальное</span>
+                        <span class="product-card__price">62 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="product-card product-card--large">
+                    <div class="product-card__image">
+                        <div class="product-card__media"></div>
+                        <div class="product-card__hover"></div>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__name">Подвеска «Bridal» с сапфиром</span>
+                        <span class="product-card__price">178 000 ₽</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- LOAD MORE -->
+            <div class="catalog-loadmore">
+                <a href="#" class="btn btn--ghost">Показать ещё</a>
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER (same as index) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__col">
+                    <a href="index.html" class="footer__logo">GELD</a>
+                    <p class="footer__tagline">Jewelry Studio<br>с 2025 года</p>
+                    <div class="footer__socials">
+                        <a href="#" class="social-link">Telegram</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">VK</a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">Каталог</h4>
+                    <a href="catalog.html" class="footer__link">Кольца</a>
+                    <a href="catalog.html" class="footer__link">Серьги</a>
+                    <a href="catalog.html" class="footer__link">Подвески</a>
+                    <a href="catalog.html" class="footer__link">Колье</a>
+                    <a href="catalog.html" class="footer__link">Браслеты</a>
+                    <a href="catalog.html" class="footer__link">Коллекции</a>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">Покупателям</h4>
+                    <a href="delivery.html" class="footer__link">Доставка и оплата</a>
+                    <a href="certification.html" class="footer__link">Сертификация</a>
+                    <a href="engraving.html" class="footer__link">Гравировка</a>
+                    <a href="spa.html" class="footer__link">СПА-уход</a>
+                    <a href="gift-cards.html" class="footer__link">Подарочные сертификаты</a>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">О бренде</h4>
+                    <a href="about.html" class="footer__link">О нас</a>
+                    <a href="stories.html" class="footer__link">Журнал</a>
+                    <a href="contacts.html" class="footer__link">Контакты</a>
+                    <a href="legal.html" class="footer__link">Юридическая информация</a>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">Контакты</h4>
+                    <a href="tel:+74950000000" class="footer__link">+7 (495) 000-00-00</a>
+                    <a href="mailto:info@geld.ru" class="footer__link">info@geld.ru</a>
+                    <p class="footer__address">Москва, ул. Пример, 1</p>
+                    <p class="footer__hours">Пн–Вс: 10:00 – 22:00</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span class="footer__copy">© 2025 GELD Jewelry Studio. Все права защищены.</span>
+                <div class="footer__usps">
+                    <span class="footer__usp">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        Сертификация
+                    </span>
+                    <span class="footer__usp">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L9.5 8.5 3 9.5l5 4.5L6 22l6-4 6 4-1.5-8 5-4.5-6.5-1z"/></svg>
+                        Гравировка
+                    </span>
+                    <span class="footer__usp">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        СПА-уход
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

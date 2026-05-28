@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кольцо Essence с бриллиантом — GELD Jewelry Studio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__inner container">
+            <a href="index.html" class="header__logo">GELD</a>
+            <nav class="header__nav">
+                <a href="catalog.html" class="nav-link">Кольца</a>
+                <a href="catalog.html" class="nav-link">Серьги</a>
+                <a href="catalog.html" class="nav-link">Подвески</a>
+                <a href="catalog.html" class="nav-link">Колье</a>
+                <a href="catalog.html" class="nav-link">Браслеты</a>
+                <a href="catalog.html" class="nav-link">Коллекции</a>
+            </nav>
+            <div class="header__actions">
+                <a href="catalog.html" class="btn-nav btn-nav--primary">Каталог</a>
+                <a href="#" class="icon-btn" aria-label="Поиск">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                </a>
+                <a href="#" class="icon-btn" aria-label="Избранное">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </a>
+                <a href="#" class="icon-btn" aria-label="Корзина">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </a>
+                <button class="burger" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- BREADCRUMBS -->
+    <section class="product-breadcrumb">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="index.html" class="breadcrumb__link">Главная</a>
+                <span class="separator">/</span>
+                <a href="catalog.html" class="breadcrumb__link">Каталог</a>
+                <span class="separator">/</span>
+                <a href="catalog.html" class="breadcrumb__link">Кольца</a>
+                <span class="separator">/</span>
+                <span class="breadcrumb__current">Кольцо Essence №G-2501</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section class="product">
+        <div class="container product__inner">
+            <!-- GALLERY -->
+            <div class="product-gallery">
+                <div class="product-gallery__main">
+                    <div class="product-gallery__image main-image" id="mainImage"></div>
+                    <span class="product-gallery__badge">Каждый бриллиант сертифицирован</span>
+                </div>
+                <div class="product-gallery__thumbs">
+                    <div class="product-gallery__thumb product-gallery__thumb--active" data-slide="0"></div>
+                    <div class="product-gallery__thumb" data-slide="1"></div>
+                    <div class="product-gallery__thumb" data-slide="2"></div>
+                    <div class="product-gallery__thumb" data-slide="3"></div>
+                    <div class="product-gallery__thumb" data-slide="4"></div>
+                </div>
+            </div>
+
+            <!-- PRODUCT INFO -->
+            <div class="product-info">
+                <span class="collection-tag">Essence</span>
+                <h1 class="product-info__title">Кольцо с бриллиантом</h1>
+                <span class="product-info__sku">Артикул: G-2501</span>
+
+                <!-- PRICE -->
+                <div class="product-price">
+                    <span class="product-price__amount">185 000 ₽</span>
+                    <span class="product-price__note">Включая НДС</span>
+                </div>
+
+                <!-- VARIATIONS: каратность -->
+                <div class="product-variations">
+                    <h3 class="product-variations__title">Каратность</h3>
+                    <div class="product-variations__list">
+                        <button class="variation-btn active" data-carat="0.3">
+                            <span class="variation-btn__label">0.3 ct</span>
+                            <span class="variation-btn__price">120 000 ₽</span>
+                        </button>
+                        <button class="variation-btn" data-carat="0.5">
+                            <span class="variation-btn__label">0.5 ct</span>
+                            <span class="variation-btn__price">185 000 ₽</span>
+                        </button>
+                        <button class="variation-btn" data-carat="1.0">
+                            <span class="variation-btn__label">1.0 ct</span>
+                            <span class="variation-btn__price">340 000 ₽</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- SIZE -->
+                <div class="product-variations">
+                    <h3 class="product-variations__title">Размер</h3>
+                    <div class="product-variations__list product-variations__list--sizes">
+                        <button class="size-btn">15</button>
+                        <button class="size-btn">15.5</button>
+                        <button class="size-btn active">16</button>
+                        <button class="size-btn">16.5</button>
+                        <button class="size-btn">17</button>
+                        <button class="size-btn">17.5</button>
+                        <button class="size-btn">18</button>
+                        <button class="size-btn">18.5</button>
+                        <button class="size-btn">19</button>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="product-cta">
+                    <a class="btn-add-cart">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                        В корзину
+                    </a>
+                    <a href="#" class="btn-order">Заказать</a>
+                    <a href="#" class="product-favorite" aria-label="В избранное">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </a>
+                </div>
+
+                <!-- USP -->
+                <div class="product-usp">
+                    <div class="product-usp__item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B8945A" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        <span>Сертификат на каждый камень</span>
+                    </div>
+                    <div class="product-usp__item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B8945A" stroke-width="1.5"><path d="M12 2L9.5 8.5 3 9.5l5 4.5L6 22l6-4 6 4-1.5-8 5-4.5-6.5-1z"/></svg>
+                        <span>Бесплатная гравировка</span>
+                    </div>
+                    <div class="product-usp__item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B8945A" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        <span>СПА-уход в подарок</span>
+                    </div>
+                </div>
+
+                <!-- DESCRIPTION -->
+                <div class="product-desc">
+                    <h3 class="product-desc__title">Описание</h3>
+                    <p>Кольцо Essence — воплощение безупречной классики. Лаконичная оправа из белого золота 585° подчёркивает огранку бриллианта высшего качества. Идеальный выбор для помолвки или как инвестиция в драгоценный камешек.</p>
+
+                    <h3 class="product-desc__title">Характеристики</h3>
+                    <div class="product-specs">
+                        <div class="spec-row">
+                            <span class="spec-row__key">Материал</span>
+                            <span class="spec-row__value">Белое золото 585</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-row__key">Камень</span>
+                            <span class="spec-row__value">Бриллиант 0.5 ct, VVS1, G</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-row__key">Огранка</span>
+                            <span class="spec-row__value">Круглая, идеальная</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-row__key">Сертификат</span>
+                            <span class="spec-row__value">GIA</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-row__key">Вес</span>
+                            <span class="spec-row__value">3.2 г</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECOMMENDATIONS -->
+    <section class="recommendations">
+        <div class="container">
+            <h2 class="section-title">С этим товаром смотрят</h2>
+            <div class="recommendations__grid">
+                <a href="product.html" class="recommendation-card">
+                    <div class="recommendation-card__img"></div>
+                    <div class="recommendation-card__body">
+                        <span class="recommendation-card__name">Серьги «Lumière»</span>
+                        <span class="recommendation-card__price">127 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="recommendation-card">
+                    <div class="recommendation-card__img"></div>
+                    <div class="recommendation-card__body">
+                        <span class="recommendation-card__name">Подвеска «Éternité»</span>
+                        <span class="recommendation-card__price">94 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="recommendation-card">
+                    <div class="recommendation-card__img"></div>
+                    <div class="recommendation-card__body">
+                        <span class="recommendation-card__name">Колье «Rivière» бриллиантовое</span>
+                        <span class="recommendation-card__price">320 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="recommendation-card">
+                    <div class="recommendation-card__img"></div>
+                    <div class="recommendation-card__body">
+                        <span class="recommendation-card__name">Браслет «Essence» классический</span>
+                        <span class="recommendation-card__price">156 000 ₽</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIEWED -->
+    <section class="viewed">
+        <div class="container">
+            <h2 class="section-title">Смотрели ранее</h2>
+            <div class="viewed__grid">
+                <a href="product.html" class="viewed-card">
+                    <div class="viewed-card__img"></div>
+                    <div class="viewed-card__body">
+                        <span class="viewed-card__name">Серьги с сапфирами</span>
+                        <span class="viewed-card__price">210 000 ₽</span>
+                    </div>
+                </a>
+                <a href="product.html" class="viewed-card">
+                    <div class="viewed-card__img"></div>
+                    <div class="viewed-card__body">
+                        <span class="viewed-card__name">Подвеска бриллиантовое колье</span>
+                        <span class="viewed-card__price">78 000 ₽</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT BREADCRUMBS -->
+    <section class="product-breadcrumb-related">
+        <div class="container">
+            <a href="catalog.html" class="product-breadcrumb-related__back">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+                Вернуться в каталог
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__col">
+                    <a href="index.html" class="footer__logo">GELD</a>
+                    <p class="footer__tagline">Jewelry Studio<br>с 2025 года</p>
+                    <div class="footer__socials">
+                        <a href="#" class="social-link">Telegram</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">VK</a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">Каталог</h4>
+                    <a href="catalog.html" class="footer__link">Кольца</a>
+                    <a href="catalog.html" class="footer__link">Серьги</a>
+                    <a href="catalog.html" class="footer__link">Подвески</a>
+                    <a href="catalog.html" class="footer__link">Колье</a>
+                    <a href="catalog.html" class="footer__link">Браслеты</a>
+                    <a href="catalog.html" class="footer__link">Коллекции</a>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">Покупателям</h4>
+                    <a href="delivery.html" class="footer__link">Доставка и оплата</a>
+                    <a href="certification.html" class="footer__link">Сертификация</a>
+                    <a href="engraving.html" class="footer__link">Гравировка</a>
+                    <a href="spa.html" class="footer__link">СПА-уход</a>
+                    <a href="gift-cards.html" class="footer__link">Подарочные сертификаты</a>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">О бренде</h4>
+                    <a href="about.html" class="footer__link">О нас</a>
+                    <a href="stories.html" class="footer__link">Журнал</a>
+                    <a href="contacts.html" class="footer__link">Контакты</a>
+                    <a href="legal.html" class="footer__link">Юридическая информация</a>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">Контакты</h4>
+                    <a href="tel:+74950000000" class="footer__link">+7 (495) 000-00-00</a>
+                    <a href="mailto:info@geld.ru" class="footer__link">info@geld.ru</a>
+                    <p class="footer__address">Москва, ул. Пример, 1</p>
+                    <p class="footer__hours">Пн–Вс: 10:00 – 22:00</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span class="footer__copy">© 2025 GELD Jewelry Studio. Все права защищены.</span>
+                <div class="footer__usps">
+                    <span class="footer__usp">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        Сертификация
+                    </span>
+                    <span class="footer__usp">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L9.5 8.5 3 9.5l5 4.5L6 22l6-4 6 4-1.5-8 5-4.5-6.5-1z"/></svg>
+                        Гравировка
+                    </span>
+                    <span class="footer__usp">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        СПА-уход
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
