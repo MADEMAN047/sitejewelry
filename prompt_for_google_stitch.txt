@@ -1,0 +1,86 @@
+GELD Jewelry Studio — Full UX/UI Design Brief & Structure for Google Stitch
+--------------------------------------------------------------
+Overall Style Guide:
+- Visual Mood: Premium, minimalistic, elegant, calm confidence. No visual noise.
+- Typography: Playfair Display (headers, serif) + Inter (body, sans-serif).
+- Color Palette:
+  - Background: #FAF8F5 (warm white)
+  - Text: #1A1A1A (deep black)
+  - Accent: #B8945A (muted gold)
+  - Borders/Lines: #E8E4DF (warm gray)
+  - Secondary BG: #F3F0EC (light beige)
+- UX Principles: Clean composition, clear hierarchy, fast path to catalog. Mobile-first adaptivity.
+
+--------------------------------------------------------------
+PAGE 1: HOME PAGE (Homepage)
+--------------------------------------------------------------
+Structure:
+1. HEADER: Fixed top bar (sticky). Logo "GELD" left. Nav links (Rings, Earrings, Pendants, Necklaces, Bracelets, Collections). Right side: "Catalog" button, Search icon, Favorites icon, Cart icon. Mobile: Burger menu icon.
+2. HERO BLOCK: 100vh height. Background: Full-width high-end jewelry image. Center/Left text overlay: "Laboratory Diamonds" (Heading 1), "GELD jewelry studio" (Subtitle), Two buttons: [View Collection] (Dark) [About the Brand] (Transparent/Ghost).
+3. CATEGORIES BLOCK: Title: "Catalog". Grid of 5 category cards (Rings, Earrings, Pendants, Necklaces, Bracelets). Visual placeholders (squares with neutral gradients). Links to catalog.
+4. SUBCATEGORIES BLOCK: Section title: "Rings". Sub-grid of 5 types (Engagement, Wedding, With Diamonds, With Sapphires, Without Stones). Each as a visual card.
+5. COLLECTIONS BLOCK: Section title: "Collections". Grid of 4 collection cards (Essence, Lumière, Éternité, Rivière). Each card: Large image + collection name + short description.
+6. ABOUT BRAND BLOCK: Split layout. Left: Image of the brand/founder. Right: Tag "About the Brand", Heading "30 Years of Experience. One Brand.", Short text description, Button [Learn More].
+7. USPs BLOCK (Advantages): Section title hidden. 4-column grid: [Certificate] Icon + text, [Engraving] Icon + text, [SPA Care] Icon + text, [Gift Cards] Icon + text.
+8. EXPERTISE BLOCK: Dark background (#1A1A1A). Left text: "World of GELD", Heading "Knowledge is the Basis of Trust". 3 numbered vertical blocks (1. Lab Diamonds, 2. Natural Stones, 3. Personalization). Right: Image.
+9. BLOG/JOURNAL (Optional): Section title: "Journal". Grid of 3 article cards (Advice, Trends, News) with image, tag, title, date.
+10. FOOTER: Dark background. 5 columns: [Logo + Social Links], [Catalog (Rings, Earrings, etc.)], [Buyers Info (Delivery, Payment, Engraving, etc.)], [About the Brand (History, Contacts)] + [Contact Info (Phone, Email, Address, Hours)]. Bottom row: Copyright + USP icons (Certificate, Engraving, SPA).
+
+--------------------------------------------------------------
+PAGE 2: CATALOG PAGE
+--------------------------------------------------------------
+Structure:
+1. HEADER & BREADCRUMBS: Same as homepage. Breadcrumbs: Home / Catalog.
+2. CATALOG HERO: Title "Catalog". Filter toggle button (mobile).
+3. LAYOUT: 2-column grid. Left: Sidebar (Sticky). Right: Main content.
+4. SIDEBAR FILTERS:
+   - Categories: All, Rings, Earrings, Pendants, Necklaces, Bracelets.
+   - Subcategories: Engagement, Wedding, With Diamonds, Without Stones.
+   - Price: Input [From] - [To].
+   - Material: Checklist (Gold 585, Gold 750, Silver, Platinum).
+   - Stones: Checklist (Diamonds, Sapphires, Rubies, Emeralds, Lab Diamonds).
+5. MAIN CONTENT:
+   A. FEATURED PRODUCT: Large split block (left large image, right product name, collection, price, button [View]). Mark as "New".
+   B. PRODUCT GRID: 4 columns. Each card: Image (with hover effect showing second view), Product Name, Price.
+   C. POPULAR SECTION: Title "Popular". Grid of 4 larger cards.
+   D. LOAD MORE: Centered button [Show More].
+
+--------------------------------------------------------------
+PAGE 3: PRODUCT CARD PAGE
+--------------------------------------------------------------
+Structure:
+1. HEADER & BREADCRUMBS: Home / Catalog / Rings / Product Name.
+2. SPLIT LAYOUT: Left Gallery, Right Info.
+3. GALLERY: Large main image area with "Every diamond certified" badge. Below: 5 small thumbnails for switching images.
+4. PRODUCT INFO:
+   - Tag: "Essence" (Collection name).
+   - Title: "Ring with Diamond".
+   - SKU: "Article: G-2501".
+   - Price: "185 000 ₽" (Large font). "Including VAT" (small).
+5. VARIATIONS (Carat):
+   - Title: "Carat Weight (Optional)".
+   - 3 Buttons: "0.3 ct — 120 000 ₽", "0.5 ct — 185 000 ₽", "1.0 ct — 340 000 ₽".
+6. SIZE SELECTOR:
+   - Title: "Size".
+   - Row of circular/rounded buttons: [15] [15.5] [16] [16.5] [17] [17.5] [18] [18.5] [19].
+7. CTAs:
+   - [Add to Cart] (Dark button with cart icon).
+   - [Order] (Light button).
+   - Favorite icon (Heart).
+8. USP SECTION (Under CTAs):
+   - [Certificate icon] Certified stones.
+   - [Gold icon] Free Engraving.
+   - [Heart icon] Free SPA Care.
+9. DESCRIPTION & SPECS:
+   - Description text.
+   - Characteristics table: Material (White Gold 585), Stone (Diamond 0.5 ct VVS1 G), Cut (Round Perfect), Certification (GIA), Weight (3.2g).
+10. RECOMMENDATIONS: Title "Looked at with this". Grid of 4 product cards.
+11. VIEWED EARLIER: Title "Viewed Earlier". Grid of 2 product cards.
+12. BACK TO CATALOG: Link with back arrow at bottom of page.
+
+--------------------------------------------------------------
+GENERAL UX/COMPOSITION NOTES:
+- Grid system: 12 columns on desktop (1280px max-width). 24px gutters.
+- Spacing: Generous whitespace (80px sections). Airy but grounded.
+- Visuals: Warm neutral gradients for placeholders. High-end jewelry photography vibe.
+- Mobile view: Single column stacks. Sidebar becomes a slide-out drawer. Catalog grid -> 2 columns.
